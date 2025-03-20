@@ -1,0 +1,81 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.youtubeSection{
+    padding: 20px 0;
+}
+.youtubeSection .container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.youtubeSection .row{
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   /* flex:wrap; */
+}
+.youtubeSection .row .box{
+   width: 23%;
+   margin: 10px 10px;
+}
+.youtubeSection .row .box .thumbnail img{
+    width: 100%;
+}
+.youtubeSection .row .box .content{
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+ }
+
+ .youtubeSection .row .box .content .discription h6{
+    margin-top: 3px;
+    margin-left: 11px;
+    font-size: 12px;
+    margin-bottom: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;   
+    color: #111;
+ }
+ .youtubeSection .content .channelLogo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ .youtubeSection .content .discription .channelDetail .channelName{
+    font-family: "Roboto", sans-serif;
+    color: #7a7878;
+    font-size: 12px;
+    margin-left: 11px;
+ }
+
+
+
+ .productSearch input{
+    width: 100%;
+    max-width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 3px 15px;
+    float: right;
+ }
+
+ .hideDiv{
+    display: none;
+ }
+
+
+
+ @media only screen and (max-width: 600px) {
+    .youtubeSection .container {
+        width: 100%;
+    }
+    .youtubeSection .row .box {
+        width: 100%;
+    }
+  }
